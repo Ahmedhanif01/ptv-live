@@ -1,0 +1,441 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notonastaliqurdudraft.css);
+
+html{
+    direction: rtl !important;
+}
+body, a, p, h1, h2, h3, h4, h5, h6, .nav-tabs .nav-link, .btn-loadmore, .btn-next, .btn-logout {
+	font-family: 'Noto Nastaliq Urdu Draft', serif !important;
+}
+p {
+    line-height: 2.2;
+}
+ .btn-loadmore, .btn-next, .btn-logout {
+    padding-bottom: 15px !important;
+ }
+ .menu.w-100.ml-3{
+     margin-right: 1rem !important;
+}
+.menu > ol > li.menu-item.active > a::after, .menu a::after, .menu > ol .sub-menu li a::after {
+   height: 0px;
+    
+}
+.menu.user-language > ol .sub-menu li a, .user-name, #footer-bottom .btm-footer-text p, .sidebar-link .text-in-urdu{
+    font-family: "Montserrat", sans-serif !important;
+}
+.section-title {
+   margin-bottom: 20px;
+}
+.continue-watching-slide h2.imgTitle, .slick-slide h2.imgTitle, .imgTitle, .menu > ol .sub-menu li a, form p {
+    font-size: 0.8rem;
+}
+
+.menu > ol .sub-menu li a i {
+    margin-left: 10px;
+    float: right;
+    margin-right: 0 !important;
+    margin-top: 3px;
+}
+.continue-watching-slide h2.imgTitle, .slick-slide h2.imgTitle, .imgTitle, .title-description h5{
+    padding: 10px 0 10px 0;
+    margin-bottom: 5px;
+}
+.play-container .section-title.episodes{
+    font-size: 1.3rem;
+    margin-bottom: 20px !important;
+}
+form p{
+    opacity: 0.7 ;
+}
+
+.dt-select, input.form-control::placeholder, .dt-select, input.form-control::-ms-input-placeholder {
+    font-size: 1rem !important;
+  }
+.dt-select, input.form-control {
+    font-size: 1.3rem !important;
+}
+.footer .widgetBox .widgetTitle h5 {
+    font-size: 1.1rem;
+} 
+.section-title.text-capitalize {
+    font-size: 1rem !important;
+    margin-bottom: 20px !important;
+}
+.footer .widgetBox .widgetContent a, .footer .widgetBox .widgetContent p {
+    line-height: 2;
+    font-size: 0.8rem;
+}
+.text-right {
+    text-align: left !important;
+}
+.text-center p, .text-center h6 {
+    text-align: center !important;
+}
+
+.list-unstyled .text-left, .video-description {
+    text-align: right !important;
+}
+.video-description .text-right, .title-description .text-lg-right  {
+    text-align: left !important;
+}
+.continue-watching p.imgDescription, p.imgDescription {
+    font-family: "Montserrat", sans-serif !important;
+}
+span.description-arrow::after {
+    left: 20px;
+    right: auto;
+}
+/* .icon-favorite::after, .icon-share::after, .icon-download::after, .icon-chromecast::after {
+    left: auto !important;
+} */
+
+.social-sharing{
+    right: auto;
+    left: 0px;
+    transition: all 0.3s linear 0s;
+  }
+  /* a.icon-share, a.icon-favorite, a.icon-download, a.icon-chromecast{
+      left: -15px;
+  } */
+.mr-lg-0{
+    margin-left: 0 !important;
+}
+.navbar-brand {
+    float: right;
+}
+.nav {
+ padding-right: 0;
+}
+.search__icon,.search__field{
+    right: auto;
+    left: 0;
+    direction: rtl;
+}
+.search__icon{
+    transform: rotate(90deg);
+}
+.search__field:focus{
+    right: auto;
+    left: 5%;
+    direction: rtl;
+}
+.search__field:focus ~ .search__icon {
+   right: auto;
+}
+.col.pr-0{
+    padding-left: 0 !important;
+    padding-right: 15px !important;
+}
+.col.pl-0.pr-0, .col.pr-0.pl-0{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.pl-1, .px-1 {
+    padding-left: .25rem!important;
+    padding-right: .25rem!important;
+}
+.menu > ol > li a:not(:last-child):before{
+    right: auto;
+    left: -3px;
+}
+.menu > ol > li a.last {
+    margin-right: auto;
+    margin-left: 10px;
+}
+.menu > ol .sub-menu{
+    padding-right: 3px;
+}
+.continue-watching-slide h2.imgTitle, .slick-slide h2.imgTitle, .imgTitle, 
+.continue-watching p.imgDescription, p.imgDescription,
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6,
+p, .play-container .section-title.episodes, .section-title {
+    text-align: right;
+}
+ul{
+    padding: 0 15px;
+}
+.play-container .section-title.episodes{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.vsongs .icon-play-songs {
+    left: auto;
+    right: 15px;
+   bottom: 6px;
+   background-position: 0 0;
+   filter: drop-shadow(0px -5px 5px rgba(0, 0, 0, 0.7));
+   transform: rotate(-180deg);
+}
+.img-container.vsongs .icon-play-songs {
+   left: auto;
+   right: 3px !important;
+   bottom: 0px !important;
+}
+.vsongs-slider .icon-play-songs {
+    left: auto;
+    right: 10px;
+   bottom: 0px;
+   background-position: 0 0;
+   filter: drop-shadow(0px -5px 5px rgba(0, 0, 0, 0.7));
+   transform: rotate(-180deg);
+}
+
+.footer .widgetBox .widgetTitle h5,.btm-footer-text p{
+    text-align: center;
+}
+.secondary-button.mr-2 {
+    margin-right: auto !important;
+    margin-left: .5rem !important;
+}
+.secondary-button{
+    line-height: 25px ;
+}
+.secondary-button i{
+    font-size: initial;
+}
+.col-xs-2.formGridState{
+margin-left: 10px;
+}
+.form-group.carrier::before {
+    left: auto ;
+    right: 0;
+}
+.form-group.carrier {
+    padding-right: 2rem !important;
+}
+.dt-select {
+    padding: .6em .8em .5em 1.4em;
+    background-position: left .1em top 60%, 0 0;
+  }
+  .navbar-toggler-icon {
+    transform: rotate(180deg);
+}
+.navbar-light .navbar-toggler{
+    padding-right: 0;
+}
+
+.icon-favorite::after, .icon-share::after, .icon-download::after, .icon-chromecast::after{
+    right: auto;
+    left: -5px;
+  }
+.privacy-container h4, .privacy-container p, .privacy-container ul{
+    direction: ltr ;
+    text-align: justify !important;
+    text-align: right;
+    line-height: 1.3rem !important;
+    font-family: "Montserrat", sans-serif !important;
+}
+.title-description p{
+    opacity: 0.6;
+    font-size: 0.95rem;
+}
+/*******responsive**********/
+
+@media (min-width: 990px){
+
+.menu > ol > li:hover:after, .menu > ol > li:focus:after, .menu > ol > li.menu-item.active {
+    background: #d5a225;
+    border-radius: 5px;
+    top: 0;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+}
+/* .menu > ol > li.menu-item.active > a::after, .menu a::after {
+    background-color: #FBFBFB !important;
+    background: #FBFBFB !important;
+} */
+
+}
+
+.slick-track{
+    margin-right: 0 !important;
+}
+
+.slick-slider > .slick-list {
+    margin-left: 0 !important;
+    padding: 0 !important;
+}
+
+@media (max-width: 1600px){
+    .search__field:focus {
+        left: 30px;
+        right: auto;
+    }
+    .vsongs-slider .icon-play-songs{
+        right: 7px;
+    }
+}
+@media (max-width: 1200px){
+    /* a.icon-share, a.icon-favorite, a.icon-download, a.icon-chromecast{
+        left: -10px;
+    } */
+    .navbar-brand {
+        margin-left: auto !important;
+        margin-right: 60px !important;
+    }
+    /* .search__field:focus {
+        left: 6%;
+    } */
+    .offcanvas-collapse .sidebar {
+        position: fixed;
+        top: 0px;
+        bottom: 0;
+        left: auto;
+        right: -10rem;
+        width: 10rem;
+        padding-right:0;
+        padding-left:0;
+        overflow-y: auto;
+        transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out;
+        z-index: 1033;
+    }
+    .offcanvas-collapse .blank-area {
+        position: fixed;
+        top: 0px;
+        bottom: 0;
+        left: 0;
+        right:auto ;
+        width: 100%;
+        width: calc(100% - 10rem ) !important;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        overflow-y: auto;
+        visibility: hidden;
+        background-color: 
+        rgba(4,9,29,0.4);
+        z-index: 1031;
+        transition: transform 0.1s ease-in-out, visibility 0.1s ease-in-out;
+    }
+    .offcanvas-collapse.open .sidebar {
+        /* left: -10rem;
+        transform: translateX(10rem); */
+        left: auto;
+        right: -10rem;
+        transform: translateX(-10rem);
+    }
+    .sidebar-nav {
+       padding-right: 0;
+    }
+    .sidebar-item.new-items.active > a::after {
+        left: auto;
+        right: -19px;
+    }
+    .clickBack {
+        float: right;
+        transform: rotate(180deg);
+        margin-top: 0;
+        margin-right: 20px;
+    }
+    .list-unstyled {
+        padding-right: 0;
+        list-style: none;
+    }
+    /* .icon-favorite::after, .icon-share::after, .icon-download::after, .icon-chromecast::after, .social-sharing{
+        right:auto;
+        left: -10px;
+      }
+    a.icon-share, a.icon-favorite, a.icon-download, a.icon-chromecast {
+        left: 15px;
+    } */
+    .vsongs-slider .icon-play-songs{
+        right: 6px;
+    }
+}
+@media (max-width: 990px){
+
+    .search__icon, .search__field {
+        right: auto;
+        left: 15px;
+        direction: rtl;
+    }
+    .search__field:focus {
+        left: 0%;
+    }
+    .navbar-brand {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    .section-title {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .row.list-unstyled .pr-0{
+        padding-right: 15px !important;
+        padding-left: 0 !important ;
+    }
+    .imgTitle.pt-0.ml-2, .imgDescription.ml-2{
+        margin-right: 0.75rem !important;
+    }
+    .vsongs-slider .icon-play-songs{
+        right: 6px;
+    }
+    .nav-link {
+        display: block;
+        padding: .5rem 1rem;
+    }
+    .favourites-tabs {
+        margin-top: -72px;
+    }
+    .nav-link {
+        padding-bottom: 14px !important;
+    }
+}
+
+@media (max-width: 800px){
+
+    .vsongs-slider .icon-play-songs{
+        right: 4px;
+    }
+}
+@media (max-width: 768px){
+    
+    .vsongs-slider .icon-play-songs{
+        right: 1px;
+        width: 16%;
+    }
+    .text-left, .video-description {
+        text-align: right !important;
+    }
+}
+@media (max-width: 600px){
+    .favourites-tabs {
+        margin-top: -67px;
+    }
+
+}
+@media (max-width: 560px){
+    
+    .vsongs-slider .icon-play-songs{
+        width: 18%;
+    }
+    .row.m-row-urdu{
+        margin: 0 -10px !important;
+    }
+    /* .vsongs .icon-play-songs {
+        right: 15px;
+    } */
+}
+@media (max-width: 480px){
+    
+    .vsongs-slider .icon-play-songs{
+        width: 18%;
+    }
+    .row.m-row-urdu{
+        margin: 0 -5px !important;
+    }
+    .row.m-row-urdu .text-light, .row.m-row-urdu .text-light + div{
+        padding-right: 10px !important;
+        padding-left: 0 !important;
+    }
+    /* .vsongs .icon-play-songs {
+        right: 15px;
+    } */
+}
+@media (max-width: 460px){
+    .favourites-tabs {
+        margin-top: -64px;
+    }
+}
+
+
